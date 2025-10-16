@@ -1,0 +1,42 @@
+
+
+{
+  "categories": [
+    {
+      "id": "CSPM",
+      "name": "CSPM Executive Dashboard",
+      "isUnlocked": false,
+      "widgets": [
+        { "id": "Cloud Accounts", "name": "Summary", "text": "Random text for summary" },
+        { "id": "Cloud Account Risk Assessment", "name": "Risks", "text": "Random text for risks" }
+      ]
+    },
+    {
+      "id": "CWPP",
+      "name": "Infrastructure",
+      "isUnlocked": false,
+      "widgets": [
+        { "id": "namespace-alerts", "name": "Namespace Alerts", "text": "Namespace alerts info" },
+        { "id": "workload-alerts", "name": "Workload Alerts", "text": "Workload alerts info" }
+      ]
+    },
+    {
+      "id": "Image",
+      "name": "Image Dashboard",
+      "isUnlocked": false,
+      "widgets": [
+        { "id": "image-risk", "name": "Image Risk Assessment", "text": "Image risk details" },
+        { "id": "image-security", "name": "Image Security Issues", "text": "Security issues info" }
+      ]
+    },
+    {
+      "id": "Ticket",
+      "name": "Ticket Dashboard",
+      "isUnlocked": false,
+      "widgets": [
+        { "id": "open-tickets", "name": "Open Tickets", "text": "All open tickets" },
+        { "id": "closed-tickets", "name": "Closed Tickets", "text": "All closed tickets" }
+      ]
+    }
+  ]
+}
